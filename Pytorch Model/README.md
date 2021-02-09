@@ -1,4 +1,4 @@
-# CS542-Fall 2020 Challenge Part I supervised baseline
+# Supervised Image Classification Model
 
 ## Requirements
 
