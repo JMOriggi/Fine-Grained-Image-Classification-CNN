@@ -1,5 +1,12 @@
 # Fine Grained Image Classification Neural Network
 
+
+## Data
+The iNaturalist2017 dataset can be downloaded from [link](https://github.com/visipedia/inat_comp#data). Please unzip the "train_val2019" folder and put the following files in this folder:
+ - `id2img.json `: Dictionary file, map image_id to image_name.
+ - `img2id.json` : Dictionary file, map image_name to image_id.
+ - `trainlist.txt/vallist.txt/testlist.txt`: text file, each row contains image_name, image_id, category_id
+ 
 ## Overview
 
 ### Supervised Image Classification Model
@@ -7,11 +14,5 @@
 
 ### Semi-Supervised Image Classification Model
 Semi-Supervised/Few-Shot Learning. We do have some images we think contain the plant, but we have only have a few labels. Our new goal is to develop an AI model that can learn from just these labeled examples.As evaluation metrix we used the classification accuracy. For each image you predict one of the held-out categories as its class. Then we measure how often that guess was correct.
-
-## Data
-The iNaturalist2017 dataset can be downloaded from [link](https://github.com/visipedia/inat_comp#data). Please unzip the "train_val2019" folder and put the following files in this folder:
- - `id2img.json `: Dictionary file, map image_id to image_name.
- - `img2id.json` : Dictionary file, map image_name to image_id.
- - `trainlist.txt/vallist.txt/testlist.txt`: text file, each row contains image_name, image_id, category_id
 
 
