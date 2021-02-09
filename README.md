@@ -2,7 +2,8 @@
 
 
 ## Data
-The iNaturalist2017 dataset can be downloaded from [INaturalist_link](https://github.com/visipedia/inat_comp#data). Please unzip the "train_val2019" folder and put the following files in this folder:
+The iNaturalist2017 dataset can be downloaded from [INaturalist_link](https://github.com/visipedia/inat_comp#data). This dataset contains over 900 classes labels of plants and animals images.
+Please unzip the "train_val2019" folder and put the following files in this folder:
  - `id2img.json `: Dictionary file, map image_id to image_name.
  - `img2id.json` : Dictionary file, map image_name to image_id.
  - `trainlist.txt/vallist.txt/testlist.txt`: text file, each row contains image_name, image_id, category_id
