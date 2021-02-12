@@ -22,5 +22,5 @@ Our new goal is to develop an AI model that can learn from just these labeled ex
 
 Original kaggle challenge: [Kaggle_link_2](https://www.kaggle.com/c/bu-cs542-fall2020-2).
 
-Report on the tasks: [report_link](ttps://github.com/JMOriggi/Fine-Grained-Image-Classification-CNN/git-docs/Report.pdf).
+Report of the challenges: [report_link](git-docs/Report.pdf).
 
