@@ -9,7 +9,7 @@ Please unzip the "train_val2019" folder and put the following files in this fold
  - `trainlist.txt/vallist.txt/testlist.txt`: text file, each row contains image_name, image_id, category_id
  
 ## Supervised Image Classification Model
-2 versions for the classifier, one using pytorch the other using keras. Both version use a ResNet architecture, to test a transfer learning leveraging on Imagenet weights and also test the model trained from scratch. We follow a similar metric to the classification tasks of the ILSVRC. 
+2 versions for the classifier, one using pytorch the other using keras. Both version use a ResNet architecture, to test a transfer learning model with Imagenet weights and also test a model trained from scratch. We follow a similar metric to the classification tasks of the ILSVRC. 
 
 [Resnet paper link](git-docs/resnet.pdf)
 
