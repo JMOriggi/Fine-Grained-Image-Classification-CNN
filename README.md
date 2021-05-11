@@ -18,7 +18,7 @@ For each image, an algorithm will produce 5 labels. We allow 5 labels because so
 Original kaggle challenge: [Kaggle_link_1](https://www.kaggle.com/c/bu-cs542-fall2020).
 
 ## Semi-Supervised Image Classification Model
-Semi-Supervised/Few-Shot Learning. Only 1 version implementing from scratch self-training approach in keras, with a focus also on data exploration to understand the better model classifier to use. We do have some images we think contain the plant, but we have only have a few labels. 
+Semi-Supervised/Few-Shot Learning. Only 1 version implementing from scratch self-training approach in keras, with a focus also on data exploration to understand the better model classifier to use. We do have some images we think contain the plant, but we have only have a few labels. Here I developed a data exploration tools that was essential to first understand which model could better produce a feature representation for the images for this task. In the image an example of the PCA of different pretrained models.
 
 
 ![alt](git-docs/PCA.JPG)
